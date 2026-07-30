@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NICK'S COOKIES | Confeitaria Artesanal</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo-container">
+      <h1 class="brand-name">NICK'S COOKIES</h1>
+      <p class="tagline">O verdadeiro sabor da felicidade em cada pedaço</p>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <section class="intro">
+      <h2>Nossa Coleção Exclusiva</h2>
+      <p class="subtitle">
+        Descubra a perfeição artesanal. Nossos cookies são assados diariamente com ingredientes selecionados, 
+        garantindo uma casquinha crocante e um recheio incrivelmente macio e cremoso.
+      </p>
+    </section>
+
+    <section class="products-grid">
+
+      <article class="card">
+        <div class="card-badge">Clássico</div>
+        <h3 class="card-title">Tradicional</h3>
+        <p class="card-weight">80g de pura maciez</p>
+        <p class="card-description">
+          A receita clássica inconfundível: massa artesanal amanteigada, suave e levemente dourada, 
+          recheada generosamente com nobres gotas de chocolate.
+        </p>
+        <div class="card-footer">
+          <span class="price">R$ 5,00</span>
+          <button class="btn-order" onclick="selecionarProduto('Tradicional')">Encomendar</button>
+        </div>
+      </article>
+
+      <article class="card highlight">
+        <div class="card-badge">Mais Pedido</div>
+        <h3 class="card-title">Duplo Chocolate com Nutella</h3>
+        <p class="card-weight">80g de massa + 15g de recheio</p>
+        <p class="card-description">
+          Uma experiência intensa. Massa 100% cacau com uma combinação harmoniosa de gotas de chocolate ao leite e branco, 
+          finalizada com um luxuoso recheio de Nutella pura.
+        </p>
+        <div class="card-footer">
+          <span class="price">R$ 8,00</span>
+          <button class="btn-order" onclick="selecionarProduto('Duplo Chocolate com Nutella')">Encomendar</button>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-badge">Especialidade</div>
+        <h3 class="card-title">Torta de Cookie</h3>
+        <p class="card-weight">Servida na forminha de alumínio (150g)</p>
+        <p class="card-description">
+          Uma verdadeira obra-prima: 60g de massa base, 40g de recheio cremoso de Nutella e mais 50g de massa por cima, 
+          coberta com deliciosas gotas de chocolate derretidas.
+        </p>
+        <div class="card-footer">
+          <span class="price">R$ 15,00</span>
+          <button class="btn-order" onclick="selecionarProduto('Torta de Cookie')">Encomendar</button>
+        </div>
+      </article>
+
+    </section>
+
+    <section class="teaser-banner">
+      <div class="teaser-content">
+        <h3>Novos Sabores em Breve...</h3>
+        <p>Nossa cozinha não para! Estamos desenvolvendo receitas surpreendentes e irresistíveis que chegarão em breve ao nosso menu.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 NICK'S COOKIES — Confeitaria Fina & Artesanal. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
